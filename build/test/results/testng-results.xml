@@ -1,0 +1,1770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="28" total="48" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DoHaiAu_PC00208_SOF304_Assingment" duration-ms="34987" started-at="2020-06-18T08:38:32Z" finished-at="2020-06-18T08:39:07Z">
+    <groups>
+    </groups>
+    <test name="Frame.QLThongTinKhoTest" duration-ms="14602" started-at="2020-06-18T08:38:32Z" finished-at="2020-06-18T08:38:46Z">
+      <class name="Frame.QLThongTinKhoTest">
+        <test-method status="PASS" signature="Test1qlk_btnClear()[pri:0, instance:Test1qlk_btnClear(Frame.QLThongTinKhoTest)]" name="Test1qlk_btnClear" duration-ms="4608" started-at="2020-06-18T15:38:32Z" finished-at="2020-06-18T15:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1qlk_btnClear -->
+        <test-method status="PASS" signature="Test2qlk_btnAdd()[pri:0, instance:Test2qlk_btnAdd(Frame.QLThongTinKhoTest)]" name="Test2qlk_btnAdd" duration-ms="9794" started-at="2020-06-18T15:38:36Z" finished-at="2020-06-18T15:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2qlk_btnAdd -->
+      </class> <!-- Frame.QLThongTinKhoTest -->
+    </test> <!-- Frame.QLThongTinKhoTest -->
+    <test name="Frame.ThongKeTest" duration-ms="14921" started-at="2020-06-18T08:38:46Z" finished-at="2020-06-18T08:39:01Z">
+      <class name="Frame.ThongKeTest">
+        <test-method status="FAIL" signature="testInit()[pri:0, instance:testInit(Frame.ThongKeTest)]" name="testInit" duration-ms="93" started-at="2020-06-18T15:38:46Z" finished-at="2020-06-18T15:38:46Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Frame.ThongKeTest.testInit(ThongKeTest.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)
+	at org.testng.TestRunner$1.run(TestRunner.java:682)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1005)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method status="PASS" signature="testMain()[pri:0, instance:testMain(Frame.ThongKeTest)]" name="testMain" duration-ms="437" started-at="2020-06-18T15:38:46Z" finished-at="2020-06-18T15:38:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="FAIL" signature="testFillComboBoxNXuat()[pri:0, instance:testFillComboBoxNXuat(Frame.ThongKeTest)]" name="testFillComboBoxNXuat" duration-ms="0" started-at="2020-06-18T15:38:47Z" finished-at="2020-06-18T15:38:47Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Frame.ThongKeTest.testFillComboBoxNXuat(ThongKeTest.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)
+	at org.testng.TestRunner$1.run(TestRunner.java:682)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1005)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFillComboBoxNXuat -->
+        <test-method status="FAIL" signature="testFillComboBoxNNhap()[pri:0, instance:testFillComboBoxNNhap(Frame.ThongKeTest)]" name="testFillComboBoxNNhap" duration-ms="0" started-at="2020-06-18T15:38:47Z" finished-at="2020-06-18T15:38:47Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Frame.ThongKeTest.testFillComboBoxNNhap(ThongKeTest.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)
+	at org.testng.TestRunner$1.run(TestRunner.java:682)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1005)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFillComboBoxNNhap -->
+        <test-method status="FAIL" signature="testFillTableXuatKho()[pri:0, instance:testFillTableXuatKho(Frame.ThongKeTest)]" name="testFillTableXuatKho" duration-ms="0" started-at="2020-06-18T15:39:01Z" finished-at="2020-06-18T15:39:01Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Frame.ThongKeTest.testFillTableXuatKho(ThongKeTest.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)
+	at org.testng.TestRunner$1.run(TestRunner.java:682)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1005)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFillTableXuatKho -->
+        <test-method status="FAIL" signature="testFillTableNhapKho()[pri:0, instance:testFillTableNhapKho(Frame.ThongKeTest)]" name="testFillTableNhapKho" duration-ms="0" started-at="2020-06-18T15:39:01Z" finished-at="2020-06-18T15:39:01Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Frame.ThongKeTest.testFillTableNhapKho(ThongKeTest.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)
+	at org.testng.TestRunner$1.run(TestRunner.java:682)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1005)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFillTableNhapKho -->
+      </class> <!-- Frame.ThongKeTest -->
+    </test> <!-- Frame.ThongKeTest -->
+    <test name="TestNG tests" duration-ms="5307" started-at="2020-06-18T08:39:01Z" finished-at="2020-06-18T08:39:07Z">
+      <class name="dao.NguoiDungDAONGTest">
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:dao.NguoiDungDAONGTest@224aed64]" name="testDelete" duration-ms="47" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.NguoiDungDAONGTest@224aed64]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:dao.NguoiDungDAONGTest@224aed64]" name="setUpClass" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.NguoiDungDAONGTest@224aed64]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="testFindById()[pri:0, instance:dao.NguoiDungDAONGTest@224aed64]" name="testFindById" duration-ms="32" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindById -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.NguoiDungDAONGTest@224aed64]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.NguoiDungDAONGTest@224aed64]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.NguoiDungDAONGTest@224aed64]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="FAIL" signature="testInsert()[pri:0, instance:dao.NguoiDungDAONGTest@224aed64]" name="testInsert" duration-ms="31" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at dao.NguoiDungDAO.insert(NguoiDungDAO.java:24)
+	at dao.NguoiDungDAONGTest.testInsert(NguoiDungDAONGTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.NguoiDungDAONGTest@224aed64]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.NguoiDungDAONGTest@224aed64]" name="setUpMethod" is-config="true" duration-ms="15" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="FAIL" signature="testSelect()[pri:0, instance:dao.NguoiDungDAONGTest@224aed64]" name="testSelect" duration-ms="235" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Collections not equal: expected: null and actual: [Thien, Di, Thuan, Bang, Nhut]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Collections not equal: expected: null and actual: [Thien, Di, Thuan, Bang, Nhut]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertEquals(Assert.java:533)
+	at org.testng.Assert.assertEquals(Assert.java:514)
+	at dao.NguoiDungDAONGTest.testSelect(NguoiDungDAONGTest.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelect -->
+        <test-method status="FAIL" signature="testUpdate()[pri:0, instance:dao.NguoiDungDAONGTest@224aed64]" name="testUpdate" duration-ms="15" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at dao.NguoiDungDAO.update(NguoiDungDAO.java:29)
+	at dao.NguoiDungDAONGTest.testUpdate(NguoiDungDAONGTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.NguoiDungDAONGTest@224aed64]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.NguoiDungDAONGTest@224aed64]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.NguoiDungDAONGTest@224aed64]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:dao.NguoiDungDAONGTest@224aed64]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- dao.NguoiDungDAONGTest -->
+      <class name="dao.ThongTinKhoDAONGTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:dao.ThongTinKhoDAONGTest@c39f790]" name="setUpClass" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:dao.ThongTinKhoDAONGTest@c39f790]" name="testDelete" duration-ms="78" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.ThongTinKhoDAONGTest@c39f790]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.ThongTinKhoDAONGTest@c39f790]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="testFindById()[pri:0, instance:dao.ThongTinKhoDAONGTest@c39f790]" name="testFindById" duration-ms="16" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindById -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.ThongTinKhoDAONGTest@c39f790]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="FAIL" signature="testInsert()[pri:0, instance:dao.ThongTinKhoDAONGTest@c39f790]" name="testInsert" duration-ms="15" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_ThongTinKho'. Cannot insert duplicate key in object 'dbo.ThongTinKho'. The duplicate key value is (K09).]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_ThongTinKho'. Cannot insert duplicate key in object 'dbo.ThongTinKho'. The duplicate key value is (K09).
+	at Helper.JdbcHelper.executeUpdate(JdbcHelper.java:53)
+	at dao.ThongTinKhoDAO.insert(ThongTinKhoDAO.java:24)
+	at dao.ThongTinKhoDAONGTest.testInsert(ThongTinKhoDAONGTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_ThongTinKho'. Cannot insert duplicate key in object 'dbo.ThongTinKho'. The duplicate key value is (K09).
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:217)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1655)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:440)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:385)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7505)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2445)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:191)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:166)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:328)
+	at Helper.JdbcHelper.executeUpdate(JdbcHelper.java:47)
+	... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.ThongTinKhoDAONGTest@c39f790]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.ThongTinKhoDAONGTest@c39f790]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.ThongTinKhoDAONGTest@c39f790]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="testSelect()[pri:0, instance:dao.ThongTinKhoDAONGTest@c39f790]" name="testSelect" duration-ms="47" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelect -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.ThongTinKhoDAONGTest@c39f790]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="FAIL" signature="testUpdate()[pri:0, instance:dao.ThongTinKhoDAONGTest@c39f790]" name="testUpdate" duration-ms="16" started-at="2020-06-18T15:39:07Z" finished-at="2020-06-18T15:39:07Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_ThongTinKho'. Cannot insert duplicate key in object 'dbo.ThongTinKho'. The duplicate key value is (K08).]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_ThongTinKho'. Cannot insert duplicate key in object 'dbo.ThongTinKho'. The duplicate key value is (K08).
+	at Helper.JdbcHelper.executeUpdate(JdbcHelper.java:53)
+	at dao.ThongTinKhoDAO.insert(ThongTinKhoDAO.java:24)
+	at dao.ThongTinKhoDAONGTest.testUpdate(ThongTinKhoDAONGTest.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_ThongTinKho'. Cannot insert duplicate key in object 'dbo.ThongTinKho'. The duplicate key value is (K08).
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:217)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1655)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:440)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:385)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7505)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2445)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:191)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:166)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:328)
+	at Helper.JdbcHelper.executeUpdate(JdbcHelper.java:47)
+	... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.ThongTinKhoDAONGTest@c39f790]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:07Z" finished-at="2020-06-18T15:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.ThongTinKhoDAONGTest@c39f790]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:07Z" finished-at="2020-06-18T15:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:dao.ThongTinKhoDAONGTest@c39f790]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:07Z" finished-at="2020-06-18T15:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.ThongTinKhoDAONGTest@c39f790]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:07Z" finished-at="2020-06-18T15:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- dao.ThongTinKhoDAONGTest -->
+      <class name="dao.ThongKeDAONGTest">
+        <test-method status="FAIL" signature="testGetNhapKho()[pri:0, instance:dao.ThongKeDAONGTest@2471cca7]" name="testGetNhapKho" duration-ms="32" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Collections not equal: expected: null and actual: []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Collections not equal: expected: null and actual: []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertEquals(Assert.java:533)
+	at org.testng.Assert.assertEquals(Assert.java:514)
+	at dao.ThongKeDAONGTest.testGetNhapKho(ThongKeDAONGTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetNhapKho -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:dao.ThongKeDAONGTest@2471cca7]" name="setUpClass" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.ThongKeDAONGTest@2471cca7]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="FAIL" signature="testGetXuatKho()[pri:0, instance:dao.ThongKeDAONGTest@2471cca7]" name="testGetXuatKho" duration-ms="31" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Collections not equal: expected: null and actual: []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Collections not equal: expected: null and actual: []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertEquals(Assert.java:533)
+	at org.testng.Assert.assertEquals(Assert.java:514)
+	at dao.ThongKeDAONGTest.testGetXuatKho(ThongKeDAONGTest.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetXuatKho -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.ThongKeDAONGTest@2471cca7]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.ThongKeDAONGTest@2471cca7]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.ThongKeDAONGTest@2471cca7]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:dao.ThongKeDAONGTest@2471cca7]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- dao.ThongKeDAONGTest -->
+      <class name="dao.SanPhamDAONGTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="setUpClass" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="testDelete" duration-ms="79" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="testFindById()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="testFindById" duration-ms="15" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindById -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="FAIL" signature="testInsert()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="testInsert" duration-ms="16" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at dao.SanPhamDAO.insert(SanPhamDAO.java:23)
+	at dao.SanPhamDAONGTest.testInsert(SanPhamDAONGTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="FAIL" signature="testSelectByKeyword()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="testSelectByKeyword" duration-ms="297" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Collections not equal: expected: null and actual: [Sua, Bia, Bin s?c d? phòng, ? ?i?n, Pepsi, ?i?n Tho?i, N?i c?m ?i?n, Laptop, ??u h?, Qu?t gió, Bóng ?èn, Loa]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Collections not equal: expected: null and actual: [Sua, Bia, Bin s?c d? phòng, ? ?i?n, Pepsi, ?i?n Tho?i, N?i c?m ?i?n, Laptop, ??u h?, Qu?t gió, Bóng ?èn, Loa]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertEquals(Assert.java:533)
+	at org.testng.Assert.assertEquals(Assert.java:514)
+	at dao.SanPhamDAONGTest.testSelectByKeyword(SanPhamDAONGTest.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByKeyword -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="FAIL" signature="testSelect_0args()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="testSelect_0args" duration-ms="47" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Collections not equal: expected: null and actual: [Sua, Bia, Bin s?c d? phòng, ? ?i?n, Pepsi, ?i?n Tho?i, N?i c?m ?i?n, Laptop, ??u h?, Qu?t gió, Bóng ?èn, Loa]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Collections not equal: expected: null and actual: [Sua, Bia, Bin s?c d? phòng, ? ?i?n, Pepsi, ?i?n Tho?i, N?i c?m ?i?n, Laptop, ??u h?, Qu?t gió, Bóng ?èn, Loa]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertEquals(Assert.java:533)
+	at org.testng.Assert.assertEquals(Assert.java:514)
+	at dao.SanPhamDAONGTest.testSelect_0args(SanPhamDAONGTest.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelect_0args -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="FAIL" signature="testSelect_String_ObjectArr()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="testSelect_String_ObjectArr" duration-ms="15" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at dao.SanPhamDAO.select(SanPhamDAO.java:65)
+	at dao.SanPhamDAONGTest.testSelect_String_ObjectArr(SanPhamDAONGTest.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelect_String_ObjectArr -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="FAIL" signature="testUpdate()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="testUpdate" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at dao.SanPhamDAO.update(SanPhamDAO.java:30)
+	at dao.SanPhamDAONGTest.testUpdate(SanPhamDAONGTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:dao.SanPhamDAONGTest@2ac1fdc4]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- dao.SanPhamDAONGTest -->
+      <class name="dao.PhieuNhapDAONGTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:dao.PhieuNhapDAONGTest@629f0666]" name="setUpClass" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.PhieuNhapDAONGTest@629f0666]" name="setUpMethod" is-config="true" duration-ms="32" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="FAIL" signature="testDelete()[pri:0, instance:dao.PhieuNhapDAONGTest@629f0666]" name="testDelete" duration-ms="249" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:05Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: The DELETE statement conflicted with the REFERENCE constraint "FK_SanPham_SanPham". The conflict occurred in database "DA1_QLKho", table "dbo.SanPham", column 'MaNhap'.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: The DELETE statement conflicted with the REFERENCE constraint "FK_SanPham_SanPham". The conflict occurred in database "DA1_QLKho", table "dbo.SanPham", column 'MaNhap'.
+	at Helper.JdbcHelper.executeUpdate(JdbcHelper.java:53)
+	at dao.PhieuNhapDAO.delete(PhieuNhapDAO.java:37)
+	at dao.PhieuNhapDAONGTest.testDelete(PhieuNhapDAONGTest.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: The DELETE statement conflicted with the REFERENCE constraint "FK_SanPham_SanPham". The conflict occurred in database "DA1_QLKho", table "dbo.SanPham", column 'MaNhap'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:217)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1655)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:440)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:385)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7505)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2445)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:191)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:166)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:328)
+	at Helper.JdbcHelper.executeUpdate(JdbcHelper.java:47)
+	... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="testFindById()[pri:0, instance:dao.PhieuNhapDAONGTest@629f0666]" name="testFindById" duration-ms="79" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindById -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.PhieuNhapDAONGTest@629f0666]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.PhieuNhapDAONGTest@629f0666]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.PhieuNhapDAONGTest@629f0666]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.PhieuNhapDAONGTest@629f0666]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="FAIL" signature="testInsert()[pri:0, instance:dao.PhieuNhapDAONGTest@629f0666]" name="testInsert" duration-ms="115" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_PhieuNhap'. Cannot insert duplicate key in object 'dbo.PhieuNhap'. The duplicate key value is (N07).]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_PhieuNhap'. Cannot insert duplicate key in object 'dbo.PhieuNhap'. The duplicate key value is (N07).
+	at Helper.JdbcHelper.executeUpdate(JdbcHelper.java:53)
+	at dao.PhieuNhapDAO.insert(PhieuNhapDAO.java:26)
+	at dao.PhieuNhapDAONGTest.testInsert(PhieuNhapDAONGTest.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_PhieuNhap'. Cannot insert duplicate key in object 'dbo.PhieuNhap'. The duplicate key value is (N07).
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:217)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1655)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:440)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:385)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7505)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2445)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:191)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:166)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:328)
+	at Helper.JdbcHelper.executeUpdate(JdbcHelper.java:47)
+	... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.PhieuNhapDAONGTest@629f0666]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.PhieuNhapDAONGTest@629f0666]" name="setUpMethod" is-config="true" duration-ms="1" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="testSelect()[pri:0, instance:dao.PhieuNhapDAONGTest@629f0666]" name="testSelect" duration-ms="40" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelect -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.PhieuNhapDAONGTest@629f0666]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.PhieuNhapDAONGTest@629f0666]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="testUpdate()[pri:0, instance:dao.PhieuNhapDAONGTest@629f0666]" name="testUpdate" duration-ms="312" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.PhieuNhapDAONGTest@629f0666]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:dao.PhieuNhapDAONGTest@629f0666]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- dao.PhieuNhapDAONGTest -->
+      <class name="dao.PhieuXuatDAONGTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="setUpClass" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="setUpMethod" is-config="true" duration-ms="1" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="testDelete" duration-ms="92" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="testFindById()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="testFindById" duration-ms="196" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindById -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="FAIL" signature="testInsert()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="testInsert" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at dao.PhieuXuatDAO.insert(PhieuXuatDAO.java:22)
+	at dao.PhieuXuatDAONGTest.testInsert(PhieuXuatDAONGTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="FAIL" signature="testSelect()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="testSelect" duration-ms="47" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Collections not equal: expected: null and actual: [SP1(2019-05-10), SP2(2018-07-11), SP2(2019-10-13), SP3(2019-01-01), SP5(2018-02-02)]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Collections not equal: expected: null and actual: [SP1(2019-05-10), SP2(2018-07-11), SP2(2019-10-13), SP3(2019-01-01), SP5(2018-02-02)]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertEquals(Assert.java:533)
+	at org.testng.Assert.assertEquals(Assert.java:514)
+	at dao.PhieuXuatDAONGTest.testSelect(PhieuXuatDAONGTest.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelect -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="FAIL" signature="testSelectByKeyword()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="testSelectByKeyword" duration-ms="359" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Collections not equal: expected: null and actual: [SP1(2019-05-10), SP2(2018-07-11), SP2(2019-10-13), SP3(2019-01-01), SP5(2018-02-02)]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Collections not equal: expected: null and actual: [SP1(2019-05-10), SP2(2018-07-11), SP2(2019-10-13), SP3(2019-01-01), SP5(2018-02-02)]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertEquals(Assert.java:533)
+	at org.testng.Assert.assertEquals(Assert.java:514)
+	at dao.PhieuXuatDAONGTest.testSelectByKeyword(PhieuXuatDAONGTest.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByKeyword -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:05Z" finished-at="2020-06-18T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="FAIL" signature="testUpdate()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="testUpdate" duration-ms="15" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at dao.PhieuXuatDAO.update(PhieuXuatDAO.java:29)
+	at dao.PhieuXuatDAONGTest.testUpdate(PhieuXuatDAONGTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:dao.PhieuXuatDAONGTest@282ba1e]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:06Z" finished-at="2020-06-18T15:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- dao.PhieuXuatDAONGTest -->
+      <class name="dao.LoaiNhaCCDAONGTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:dao.LoaiNhaCCDAONGTest@387c703b]" name="setUpClass" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:01Z" finished-at="2020-06-18T15:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.LoaiNhaCCDAONGTest@387c703b]" name="setUpMethod" is-config="true" duration-ms="47" started-at="2020-06-18T15:39:01Z" finished-at="2020-06-18T15:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="testSelect()[pri:0, instance:dao.LoaiNhaCCDAONGTest@387c703b]" name="testSelect" duration-ms="641" started-at="2020-06-18T15:39:01Z" finished-at="2020-06-18T15:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelect -->
+        <test-method status="FAIL" signature="test_Delete()[pri:0, instance:dao.LoaiNhaCCDAONGTest@387c703b]" name="test_Delete" duration-ms="812" started-at="2020-06-18T15:39:02Z" finished-at="2020-06-18T15:39:03Z">
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Expected exception java.lang.NullPointerException but got org.testng.TestException: 
+Expected exception java.lang.NullPointerException but got java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: The DELETE statement conflicted with the REFERENCE constraint "FK_NhaCungCap_LoaiNhaCC". The conflict occurred in database "DA1_QLKho", table "dbo.NhaCungCap", column 'MaLoaiCC'.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Expected exception java.lang.NullPointerException but got org.testng.TestException: 
+Expected exception java.lang.NullPointerException but got java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: The DELETE statement conflicted with the REFERENCE constraint "FK_NhaCungCap_LoaiNhaCC". The conflict occurred in database "DA1_QLKho", table "dbo.NhaCungCap", column 'MaLoaiCC'.
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1497)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1245)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.testng.TestException: 
+Expected exception java.lang.NullPointerException but got java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: The DELETE statement conflicted with the REFERENCE constraint "FK_NhaCungCap_LoaiNhaCC". The conflict occurred in database "DA1_QLKho", table "dbo.NhaCungCap", column 'MaLoaiCC'.
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1497)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	... 15 more
+Caused by: java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: The DELETE statement conflicted with the REFERENCE constraint "FK_NhaCungCap_LoaiNhaCC". The conflict occurred in database "DA1_QLKho", table "dbo.NhaCungCap", column 'MaLoaiCC'.
+	at Helper.JdbcHelper.executeUpdate(JdbcHelper.java:53)
+	at dao.LoaiNhaCCDAO.delete(LoaiNhaCCDAO.java:31)
+	at dao.LoaiNhaCCDAONGTest.test_Delete(LoaiNhaCCDAONGTest.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	... 17 more
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: The DELETE statement conflicted with the REFERENCE constraint "FK_NhaCungCap_LoaiNhaCC". The conflict occurred in database "DA1_QLKho", table "dbo.NhaCungCap", column 'MaLoaiCC'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:217)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1655)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:440)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:385)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7505)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2445)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:191)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:166)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:328)
+	at Helper.JdbcHelper.executeUpdate(JdbcHelper.java:47)
+	... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Delete -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.LoaiNhaCCDAONGTest@387c703b]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:02Z" finished-at="2020-06-18T15:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.LoaiNhaCCDAONGTest@387c703b]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:02Z" finished-at="2020-06-18T15:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.LoaiNhaCCDAONGTest@387c703b]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:03Z" finished-at="2020-06-18T15:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.LoaiNhaCCDAONGTest@387c703b]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:03Z" finished-at="2020-06-18T15:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="test_Exists()[pri:0, instance:dao.LoaiNhaCCDAONGTest@387c703b]" name="test_Exists" duration-ms="171" started-at="2020-06-18T15:39:03Z" finished-at="2020-06-18T15:39:03Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_LoaiNhaCC'. Cannot insert duplicate key in object 'dbo.LoaiNhaCC'. The duplicate key value is (MLCC01).]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_LoaiNhaCC'. Cannot insert duplicate key in object 'dbo.LoaiNhaCC'. The duplicate key value is (MLCC01).
+	at Helper.JdbcHelper.executeUpdate(JdbcHelper.java:53)
+	at dao.LoaiNhaCCDAO.insert(LoaiNhaCCDAO.java:23)
+	at dao.LoaiNhaCCDAONGTest.test_Exists(LoaiNhaCCDAONGTest.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_LoaiNhaCC'. Cannot insert duplicate key in object 'dbo.LoaiNhaCC'. The duplicate key value is (MLCC01).
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:217)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1655)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:440)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:385)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7505)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2445)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:191)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:166)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:328)
+	at Helper.JdbcHelper.executeUpdate(JdbcHelper.java:47)
+	... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Exists -->
+        <test-method status="FAIL" signature="test_Insert()[pri:0, instance:dao.LoaiNhaCCDAONGTest@387c703b]" name="test_Insert" duration-ms="47" started-at="2020-06-18T15:39:03Z" finished-at="2020-06-18T15:39:03Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_LoaiNhaCC'. Cannot insert duplicate key in object 'dbo.LoaiNhaCC'. The duplicate key value is (MLCC02).]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_LoaiNhaCC'. Cannot insert duplicate key in object 'dbo.LoaiNhaCC'. The duplicate key value is (MLCC02).
+	at Helper.JdbcHelper.executeUpdate(JdbcHelper.java:53)
+	at dao.LoaiNhaCCDAO.insert(LoaiNhaCCDAO.java:23)
+	at dao.LoaiNhaCCDAONGTest.test_Insert(LoaiNhaCCDAONGTest.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_LoaiNhaCC'. Cannot insert duplicate key in object 'dbo.LoaiNhaCC'. The duplicate key value is (MLCC02).
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:217)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1655)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:440)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:385)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7505)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2445)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:191)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:166)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:328)
+	at Helper.JdbcHelper.executeUpdate(JdbcHelper.java:47)
+	... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Insert -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.LoaiNhaCCDAONGTest@387c703b]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:03Z" finished-at="2020-06-18T15:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.LoaiNhaCCDAONGTest@387c703b]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:03Z" finished-at="2020-06-18T15:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.LoaiNhaCCDAONGTest@387c703b]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:03Z" finished-at="2020-06-18T15:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="test_Update()[pri:0, instance:dao.LoaiNhaCCDAONGTest@387c703b]" name="test_Update" duration-ms="531" started-at="2020-06-18T15:39:03Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Update -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.LoaiNhaCCDAONGTest@387c703b]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:03Z" finished-at="2020-06-18T15:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:dao.LoaiNhaCCDAONGTest@387c703b]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.LoaiNhaCCDAONGTest@387c703b]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- dao.LoaiNhaCCDAONGTest -->
+      <class name="dao.NhaCungCapDAONGTest">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.NhaCungCapDAONGTest@71e7a66b]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:dao.NhaCungCapDAONGTest@71e7a66b]" name="testDelete" duration-ms="172" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:dao.NhaCungCapDAONGTest@71e7a66b]" name="setUpClass" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.NhaCungCapDAONGTest@71e7a66b]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="testFindById()[pri:0, instance:dao.NhaCungCapDAONGTest@71e7a66b]" name="testFindById" duration-ms="16" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindById -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.NhaCungCapDAONGTest@71e7a66b]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="FAIL" signature="testIsert()[pri:0, instance:dao.NhaCungCapDAONGTest@71e7a66b]" name="testIsert" duration-ms="31" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at dao.NhaCungCapDAO.isert(NhaCungCapDAO.java:23)
+	at dao.NhaCungCapDAONGTest.testIsert(NhaCungCapDAONGTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsert -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.NhaCungCapDAONGTest@71e7a66b]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.NhaCungCapDAONGTest@71e7a66b]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.NhaCungCapDAONGTest@71e7a66b]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.NhaCungCapDAONGTest@71e7a66b]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="FAIL" signature="testSelect()[pri:0, instance:dao.NhaCungCapDAONGTest@71e7a66b]" name="testSelect" duration-ms="16" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Collections not equal: expected: null and actual: [Cong ty A, Cong ty B, Cong ty C, Cong ty D, Cong ty E]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Collections not equal: expected: null and actual: [Cong ty A, Cong ty B, Cong ty C, Cong ty D, Cong ty E]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertEquals(Assert.java:533)
+	at org.testng.Assert.assertEquals(Assert.java:514)
+	at dao.NhaCungCapDAONGTest.testSelect(NhaCungCapDAONGTest.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelect -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.NhaCungCapDAONGTest@71e7a66b]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:dao.NhaCungCapDAONGTest@71e7a66b]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:dao.NhaCungCapDAONGTest@71e7a66b]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:dao.NhaCungCapDAONGTest@71e7a66b]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="FAIL" signature="testUpdate()[pri:0, instance:dao.NhaCungCapDAONGTest@71e7a66b]" name="testUpdate" duration-ms="0" started-at="2020-06-18T15:39:04Z" finished-at="2020-06-18T15:39:04Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at dao.NhaCungCapDAO.update(NhaCungCapDAO.java:28)
+	at dao.NhaCungCapDAONGTest.testUpdate(NhaCungCapDAONGTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+      </class> <!-- dao.NhaCungCapDAONGTest -->
+    </test> <!-- TestNG tests -->
+  </suite> <!-- DoHaiAu_PC00208_SOF304_Assingment -->
+</testng-results>

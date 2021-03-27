@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DoHaiAu_PC00208_SOF304_Assingment]">
+  <test name="Frame.ThongKeTest(failed)" junit="true">
+    <classes>
+      <class name="dao.ThongKeDAONGTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownMethod"/>
+          <include name="setUpMethod"/>
+        </methods>
+      </class> <!-- dao.ThongKeDAONGTest -->
+      <class name="dao.PhieuNhapDAONGTest">
+        <methods>
+          <include name="setUpMethod"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownMethod"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- dao.PhieuNhapDAONGTest -->
+      <class name="dao.LoaiNhaCCDAONGTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownMethod"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- dao.LoaiNhaCCDAONGTest -->
+      <class name="dao.NguoiDungDAONGTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- dao.NguoiDungDAONGTest -->
+      <class name="dao.ThongTinKhoDAONGTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="setUpMethod"/>
+          <include name="setUpClass"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- dao.ThongTinKhoDAONGTest -->
+      <class name="dao.NhaCungCapDAONGTest">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+          <include name="setUpMethod"/>
+        </methods>
+      </class> <!-- dao.NhaCungCapDAONGTest -->
+      <class name="Frame.ThongKeTest">
+        <methods>
+          <include name="testFillComboBoxNXuat"/>
+          <include name="testFillComboBoxNNhap"/>
+          <include name="testInit"/>
+          <include name="testFillTableXuatKho"/>
+          <include name="testFillTableNhapKho"/>
+        </methods>
+      </class> <!-- Frame.ThongKeTest -->
+      <class name="dao.SanPhamDAONGTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDownClass"/>
+          <include name="setUpMethod"/>
+        </methods>
+      </class> <!-- dao.SanPhamDAONGTest -->
+      <class name="dao.PhieuXuatDAONGTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="tearDownMethod"/>
+          <include name="setUpMethod"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- dao.PhieuXuatDAONGTest -->
+    </classes>
+  </test> <!-- Frame.ThongKeTest(failed) -->
+  <test name="TestNG tests(failed)">
+    <classes>
+      <class name="dao.ThongKeDAONGTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testGetXuatKho"/>
+          <include name="tearDownClass"/>
+          <include name="testGetNhapKho"/>
+          <include name="tearDownMethod"/>
+          <include name="setUpMethod"/>
+        </methods>
+      </class> <!-- dao.ThongKeDAONGTest -->
+      <class name="dao.PhieuNhapDAONGTest">
+        <methods>
+          <include name="testInsert"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownMethod"/>
+          <include name="testDelete"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- dao.PhieuNhapDAONGTest -->
+      <class name="dao.LoaiNhaCCDAONGTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownMethod"/>
+          <include name="setUpClass"/>
+          <include name="test_Delete"/>
+          <include name="test_Insert"/>
+        </methods>
+      </class> <!-- dao.LoaiNhaCCDAONGTest -->
+      <class name="dao.NguoiDungDAONGTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="setUpMethod"/>
+          <include name="testSelect"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownMethod"/>
+          <include name="testInsert"/>
+          <include name="testUpdate"/>
+        </methods>
+      </class> <!-- dao.NguoiDungDAONGTest -->
+      <class name="dao.ThongTinKhoDAONGTest">
+        <methods>
+          <include name="testInsert"/>
+          <include name="testUpdate"/>
+          <include name="tearDownClass"/>
+          <include name="setUpMethod"/>
+          <include name="setUpClass"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- dao.ThongTinKhoDAONGTest -->
+      <class name="dao.NhaCungCapDAONGTest">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="testUpdate"/>
+          <include name="tearDownClass"/>
+          <include name="testIsert"/>
+          <include name="testSelect"/>
+          <include name="setUpClass"/>
+          <include name="setUpMethod"/>
+        </methods>
+      </class> <!-- dao.NhaCungCapDAONGTest -->
+      <class name="dao.SanPhamDAONGTest">
+        <methods>
+          <include name="testSelectByKeyword"/>
+          <include name="setUpClass"/>
+          <include name="testSelect_0args"/>
+          <include name="tearDownMethod"/>
+          <include name="testSelect_String_ObjectArr"/>
+          <include name="testInsert"/>
+          <include name="testUpdate"/>
+          <include name="tearDownClass"/>
+          <include name="setUpMethod"/>
+        </methods>
+      </class> <!-- dao.SanPhamDAONGTest -->
+      <class name="dao.PhieuXuatDAONGTest">
+        <methods>
+          <include name="testInsert"/>
+          <include name="testSelect"/>
+          <include name="testUpdate"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownMethod"/>
+          <include name="setUpMethod"/>
+          <include name="setUpClass"/>
+          <include name="testSelectByKeyword"/>
+        </methods>
+      </class> <!-- dao.PhieuXuatDAONGTest -->
+    </classes>
+  </test> <!-- TestNG tests(failed) -->
+</suite> <!-- Failed suite [DoHaiAu_PC00208_SOF304_Assingment] -->
